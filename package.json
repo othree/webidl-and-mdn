@@ -1,8 +1,9 @@
 {
   "name": "webidl-and-mdn",
   "dependencies": {
+    "jsdom": "^5.5.0",
+    "request": "^2.58.0",
     "walk": "^2.3.9",
     "webidl2": "https://github.com/othree/webidl2.js/tarball/moz"
-    "request": "^2.58.0"
   }
 }
