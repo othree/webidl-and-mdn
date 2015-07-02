@@ -3,5 +3,6 @@
   "dependencies": {
     "walk": "^2.3.9",
     "webidl2": "https://github.com/othree/webidl2.js/tarball/moz"
+    "request": "^2.58.0"
   }
 }
