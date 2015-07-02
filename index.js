@@ -25,13 +25,16 @@ walker.on('end', function() {
     let platform = 'web';
     if (name === 'CSS2Properties') {
       platform = 'css';
-      name = 'css';
     }
     console.log(`http://mdn.io/${platform}/${name}`);
     if (inter.members) {
       for (let i in inter.members) {
         let member = inter.members[i];
-        console.log(`http://mdn.io/${platform}/${name}/${member.name}`);
+        if (name === 'CSS2Properties') {
+          console.log(`http://mdn.io/${platform}/${member.name}`);
+        } else {
+          console.log(`http://mdn.io/${platform}/${name}/${member.name}`);
+        }
       }
     }
   }
