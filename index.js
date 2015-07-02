@@ -2,6 +2,7 @@ var loader = require('./loader.js');
 var request = require('request');
 var jsdom = require('jsdom');
 var jsonfile = require('jsonfile');
+var paramCase = require('param-case');
 
 var walk = require('walk');
 var files = [];
@@ -33,7 +34,7 @@ walker.on('end', function() {
       for (let i in inter.members) {
         let member = inter.members[i];
         if (name === 'CSS2Properties') {
-          keys.push([`${name}/${member.name}`, `${platform}/${member.name}`]);
+          keys.push([`${name}/${member.name}`, `${platform}/${paramCase(member.name)}`]);
         } else {
           keys.push([`${name}/${member.name}`, `${platform}/${name}/${member.name}`]);
         }
