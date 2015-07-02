@@ -1,6 +1,7 @@
 var loader = require('./loader.js');
 var request = require('request');
 var jsdom = require('jsdom');
+var jsonfile = require('jsonfile');
 
 var walk = require('walk');
 var files = [];
@@ -23,9 +24,9 @@ walker.on('end', function() {
 
   for (let name in interfaces) {
     let inter = interfaces[name];
-    let platform = 'web';
+    let platform = 'API';
     if (name === 'CSS2Properties') {
-      platform = 'css';
+      platform = 'CSS';
     }
     keys.push([`${name}`, `${platform}/${name}`]);
     if (inter.members) {
@@ -34,24 +35,35 @@ walker.on('end', function() {
         if (name === 'CSS2Properties') {
           keys.push([`${name}/${member.name}`, `${platform}/${member.name}`]);
         } else {
-          keys.push([`${name}/${member.name}`, `${name}/${member.name}`]);
+          keys.push([`${name}/${member.name}`, `${platform}/${name}/${member.name}`]);
         }
       }
     }
   }
 
+  // var def = jsonfile.readFileSync('webidl.json');
   var def = {};
-
   var walk = function (i) {
     if (i === keys.length) {
       output();
+      return;
+    }
+    if (i === 20) {
+      output();
+      return;
     }
     let key = keys[i][0];
-    let name = keys[i][1];
-    let url = `http://mdn.io/${name}`;
-    request.get(url, {followRedirect: false}).on('response', function (response) {
-      if (!/google/.test(response.headers['location'])) {
-        var url = response.headers['location'];
+    if (def[key]) {
+      walk(i+1);
+      return;
+    }
+    var name = keys[i][1];
+    var url = `http://developer.mozilla.org/en-US/docs/Web/${name}`;
+    request({
+      method: 'GET',
+      uri: url
+    }, function (error, response, body) {
+      if (!error && response.statusCode === 200) {
         var doc = null;
         jsdom.env({
           url: url,
@@ -63,7 +75,7 @@ walker.on('end', function() {
               var text = $.trim($(this).text());
               if (text !== '') {
                 doc = text;
-                console.log(i, key);
+                console.log(i, key, doc);
                 def[key] = {
                   "!url": url,
                   "!doc": doc
