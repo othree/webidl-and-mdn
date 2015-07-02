@@ -48,10 +48,6 @@ walker.on('end', function() {
       output();
       return;
     }
-    if (i === 20) {
-      output();
-      return;
-    }
     let key = keys[i][0];
     if (def[key]) {
       walk(i+1);
