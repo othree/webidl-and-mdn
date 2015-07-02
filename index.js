@@ -25,6 +25,7 @@ walker.on('end', function() {
     let platform = 'web';
     if (name === 'CSS2Properties') {
       platform = 'css';
+      name = 'css';
     }
     console.log(`http://mdn.io/${platform}/${name}`);
     if (inter.members) {
