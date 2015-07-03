@@ -56,10 +56,16 @@ walker.on('end', function() {
     }
     var name = keys[i][1];
     var url = `http://developer.mozilla.org/en-US/docs/Web/${name}`;
+    var timeout = setTimeout(function () {
+        console.log(i, key, 'timeout');
+      walk(i+1);
+    }, 30 * 1000);
+
     request({
       method: 'GET',
       uri: url
     }, function (error, response, body) {
+      clearTimeout(timeout);
       if (!error && response.statusCode === 200) {
         var doc = null;
         jsdom.env({
@@ -70,7 +76,11 @@ walker.on('end', function() {
             var nodes = $('p');
             nodes.each(function () {
               var text = $.trim($(this).text());
-              if (text !== '' && text !== 'This article is in need of a technical review.') {
+              if (text !== '' 
+               && text !== 'This article is in need of a technical review.'
+               && text !== '« SVG Attribute reference home'
+               && !/^Non-standard/.test(text) 
+               && !/^This is an experimental technology/.test(text)) {
                 doc = text;
                 console.log(i, key, doc);
                 def[key] = {
@@ -80,6 +90,9 @@ walker.on('end', function() {
                 return false;
               }
             });
+            if (!doc) {
+              console.log(i, key, 'nodoc');
+            }
             walk(i+1);
           }
         });
@@ -91,6 +104,7 @@ walker.on('end', function() {
           // console.log(p);
         // });
       } else {
+        console.log(i, key, 'notfound');
         walk(i+1);
       }
     });
