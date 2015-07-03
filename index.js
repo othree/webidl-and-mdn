@@ -70,7 +70,7 @@ walker.on('end', function() {
             var nodes = $('p');
             nodes.each(function () {
               var text = $.trim($(this).text());
-              if (text !== '') {
+              if (text !== '' && text !== 'This article is in need of a technical review.') {
                 doc = text;
                 console.log(i, key, doc);
                 def[key] = {
