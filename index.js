@@ -79,6 +79,7 @@ walker.on('end', function() {
               if (text !== '' 
                && text !== 'This article is in need of a technical review.'
                && text !== '« SVG Attribute reference home'
+               && !/^Draft/.test(text) 
                && !/^Non-standard/.test(text) 
                && !/^This is an experimental technology/.test(text)) {
                 doc = text;
