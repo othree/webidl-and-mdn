@@ -79,6 +79,7 @@ walker.on('end', function() {
               if (text !== '' 
                && text !== 'This article is in need of a technical review.'
                && text !== '« SVG Attribute reference home'
+               && text !== 'This API is available on Firefox OS for privileged or certified applications only.'
                && !/^Draft/.test(text) 
                && !/^Not native/.test(text) 
                && !/^Non-standard/.test(text) 
