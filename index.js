@@ -80,6 +80,7 @@ walker.on('end', function() {
                && text !== 'This article is in need of a technical review.'
                && text !== 'This article is in need of an editorial review.'
                && text !== '« SVG Attribute reference home'
+               && text !== 'This API is available on Firefox or Firefox OS for installed or higher privileged applications.'
                && text !== 'This API is available on Firefox OS for privileged or certified applications only.'
                && text !== 'This API is available on Firefox OS for internal applications only.'
                && !/^Draft/.test(text) 
