@@ -78,12 +78,15 @@ walker.on('end', function() {
               var text = $.trim($(this).text());
               if (text !== '' 
                && text !== 'This article is in need of a technical review.'
+               && text !== 'This article is in need of an editorial review.'
                && text !== '« SVG Attribute reference home'
                && text !== 'This API is available on Firefox OS for privileged or certified applications only.'
+               && text !== 'This API is available on Firefox OS for internal applications only.'
                && !/^Draft/.test(text) 
                && !/^Not native/.test(text) 
                && !/^Non-standard/.test(text) 
-               && !/^This is an experimental technology/.test(text)) {
+               && !/^This is an experimental technology/.test(text)
+               && !/^This is a new technology/.test(text)) {
                 doc = text;
                 console.log(i, key, doc);
                 def[key] = {
