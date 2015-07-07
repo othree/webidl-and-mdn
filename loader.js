@@ -43,6 +43,8 @@ var loader = {
 
     if (def.type === 'interface') {
       d = loader.interface(def);
+    } else if (def.type === 'callback interface') {
+      d = loader.interface(def);
     } else if (def.type === 'implements') {
       d = loader.implements(def);
     }
