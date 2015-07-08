@@ -533,7 +533,7 @@
   },
   "Blob/size": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Blob/size",
-    "!doc": "Returns the size of the file in bytes."
+    "!doc": "The Blob.size property returns the size of the file in bytes."
   },
   "Blob/type": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Blob/type",
@@ -553,219 +553,219 @@
   },
   "BluetoothAdapter": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothAdapter interface of the Web Bluetooth API is used to handle all the operations requested by Bluetooth networks. A Bluetooth adapter is the physical interface which is used to interact with local Bluetooth device."
   },
   "BluetoothAdapter/address": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/address",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The address property value provides the address of the device's adapter on the Bluetooth micro-network."
   },
   "BluetoothAdapter/name": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/name",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The name property provides the human readable name of the device's adapter."
   },
   "BluetoothAdapter/discoverable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/discoverable",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The discoverable property indicates if the device is discoverable (true) or not (false) by other Bluetooth devices."
   },
   "BluetoothAdapter/discovering": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/discovering",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The discovering property indicates if the device is in the process of discovering (true) or not (false) surrounding Bluetooth devices."
   },
   "BluetoothAdapter/ona2dpstatuschanged": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/ona2dpstatuschanged",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Specifies an event listener to receive a2dpstatuschanged events. Those events occur when an A2DP connection status changes."
   },
   "BluetoothAdapter/onhfpstatuschanged": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/onhfpstatuschanged",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Specifies an event listener to receive hfpstatuschanged events. Those events occur when an HFP connection status changes."
   },
   "BluetoothAdapter/onscostatuschanged": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/onscostatuschanged",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Specifies an event listener to receive scostatuschanged events. Those events occur when a SCO connection status changes."
   },
   "BluetoothAdapter/onrequestmediaplaystatus": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/onrequestmediaplaystatus",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Specifies an event listener to receive requestmediaplaystatus events. Those events occur when a remote Bluetooth device queries the current media play status."
   },
   "BluetoothAdapter/setName": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/setName",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The setName method is used to change the value of the name property for the device's adapter."
   },
   "BluetoothAdapter/setDiscoverable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/setDiscoverable",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The setDiscoverable method is used to change the value of the discoverable property for the device's adapter."
   },
   "BluetoothAdapter/startDiscovery": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/startDiscovery",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The startDiscovery method is used to have the device's adapter start seeking for remote devices."
   },
   "BluetoothAdapter/stopDiscovery": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/stopDiscovery",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The stopDiscovery method is used to have the device's adapter stop seeking for remote devices."
   },
   "BluetoothAdapter/pair": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/pair",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The pair method is used to start pairing a remote device with the device's adapter."
   },
   "BluetoothAdapter/unpair": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/unpair",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The unpair method is used to remove the paired device from the paired device list of the device's adapter."
   },
   "BluetoothAdapter/getPairedDevices": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/getPairedDevices",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The getPairedDevices method is used to retrieve the full list of all devices paired with the device's adapter."
   },
   "BluetoothAdapter/getConnectedDevices": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/getConnectedDevices",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The getConnectedDevices method is used to retrieve the full list of all devices connected with a specific service of local adapter."
   },
   "BluetoothAdapter/connect": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/connect",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The connect method is used to connect the device's adapter to a specific service of a remote device."
   },
   "BluetoothAdapter/disconnect": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/disconnect",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The disconnect method is used to disconnect the device's adapter from a specific service of a remote device."
   },
   "BluetoothAdapter/sendFile": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/sendFile",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The sendFile method is used to start sending a file to a given remote device."
   },
   "BluetoothAdapter/stopSendingFile": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/stopSendingFile",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The stopSendingFile method is used to abort sending a file to a given remote device."
   },
   "BluetoothAdapter/confirmReceivingFile": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/confirmReceivingFile",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The confirmReceivingFile method is used to accept or reject the incoming file transfer request received from the remote device."
   },
   "BluetoothAdapter/connectSco": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/connectSco",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The connectSco method is used to allow the device to enable the SCO connection to broadcast and listen to audio to/from the remote devices it is connected to."
   },
   "BluetoothAdapter/disconnectSco": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/disconnectSco",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The disconnectSco method is used to allow the device to disable the SCO connection with the remote devices it is connected to."
   },
   "BluetoothAdapter/isScoConnected": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/isScoConnected",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The isScoConnected method is used to allow to know if there is a SCO connection between local and the remote Bluetooth device."
   },
   "BluetoothAdapter/answerWaitingCall": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/answerWaitingCall",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The answerWaitingCall method is used to allow HFP devices to answer a pending incoming call on a CDMA network."
   },
   "BluetoothAdapter/ignoreWaitingCall": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/ignoreWaitingCall",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The ignoreWaitingCall method is used to allow HFP devices to dismiss a pending incoming call on a CDMA network."
   },
   "BluetoothAdapter/toggleCalls": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/toggleCalls",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The toggleCalls method is used to allow HFP devices to switch from one call to another on a CDMA network."
   },
   "BluetoothAdapter/sendMediaMetaData": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/sendMediaMetaData",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The sendMediaMetaData method is used to send metadata about media to remote devices connected with the AVRCP 1.3 profile."
   },
   "BluetoothAdapter/sendMediaPlayStatus": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapter/sendMediaPlayStatus",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The sendMediaPlayStatus method is used to send the play status of the device to remote devices connected with the AVRCP 1.3 profile."
   },
   "BluetoothAdapterEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAdapterEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothAdapterEvent interface of the Web Bluetooth API provides access to a BluetoothAdapter object and its address as the parameter of a adapteradded or adapterremoved event handler (see BluetoothManager.onadapteradded and BluetoothManager.onadapterremoved), when fired."
   },
   "BluetoothAttributeEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothAttributeEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothAttributeEvent interface of the Web Bluetooth API provides access to changed attributes and their new values as the parameter of attributechanged event handlers (including BluetoothManager.onattributechanged, BluetoothAdapter.onattributechanged, and BluetoothDevice.onattributechanged), when fired."
   },
   "BluetoothClassOfDevice": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothClassOfDevice",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The BluetoothClassOfDevice interface of the Web Bluetooth API provides identifying/classification information about a given remote Bluetooth device, available at discovery stage."
   },
   "BluetoothDevice": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothDevice interface of the Web Bluetooth API provides information regarding a given Bluetooth device."
   },
   "BluetoothDevice/address": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/address",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The address property value provides the address of the device on the Bluetooth micro-network."
   },
   "BluetoothDevice/name": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/name",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The name property provides the human readable name of the device."
   },
   "BluetoothDevice/paired": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/paired",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The paired property indicates if the device is paired to the current device's adapter (true) or not (false)."
   },
   "BluetoothDevice/uuids": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDevice/uuids",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The uuids property provides the list of UUIDs of each Bluetooth service the device is able to provide. For a full list of possible Bluetooth services see the Bluetooth specification."
   },
   "BluetoothDeviceEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDeviceEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothDeviceEvent interface of the Web Bluetooth API provides access to a found/paired device (BluetoothDevice) object or the address or an unpaired device as the parameter of a devicefound, devicepaired or deviceunpaired event handler (see BluetoothDiscoveryHandle.ondevicefound, BluetoothAdapter.ondevicepaired, BluetoothAdapter.ondeviceunpaired), when fired."
   },
   "BluetoothDeviceEvent/device": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDeviceEvent/device",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The device property gives access to the device bound to the event."
   },
   "BluetoothDiscoveryHandle": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothDiscoveryHandle",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothDiscoveryHandle interface of the Web Bluetooth API is used to notify the current application about the discovery of a remote bluetooth device."
   },
   "BluetoothGatt": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothGatt",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothGatt interface of the Web Bluetooth API handles initial communications and connections with Gatt services."
   },
   "BluetoothGattCharacteristic": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothGattCharacteristic",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothGattCharacteristic interface of the Web Bluetooth API represents a GATT service characteristic, which includes characteristic definition, value, properties and configuration info, and a list of descriptors that provide related information."
   },
   "BluetoothGattCharacteristicEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothGattCharacteristicEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothGattCharacteristicEvent interface of the Web Bluetooth API provides access to an updated BluetoothGattCharacteristic object as the parameter of the BluetoothGatt.oncharacteristicchanged, handler, when the characteristicchanged event is fired."
   },
   "BluetoothGattDescriptor": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothGattDescriptor",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothGattDescriptor interface of the Web Bluetooth API represents a GATT descriptor, which contains related information about a characteristic value."
   },
   "BluetoothGattService": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothGattService",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothGattService interface of the Web Bluetooth API represents a service provided by a GATT server, including the service definition, a list of referenced services, and a list of the characteristics of this service."
   },
   "BluetoothManager": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothManager",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothManager interface of the Web Bluetooth API allows to access all Bluetooth adapters available on the device. Adapters are the connection interface to connect a Bluetooth device to that device."
   },
   "BluetoothManager/onadapteradded": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothManager/onadapteradded",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Specifies an event listener to receive adapteradded events. Those events occur when a Bluetooth adapter is enabled on the device. Each time this event occurs, the BluetoothManager.getDefaultAdapter() method will be able to access the last enabled adapter."
   },
   "BluetoothPairingEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothPairingEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothPairingEvent interface of the Web Bluetooth API provides access to a device's name and the BluetoothPairingHandle object required for pairing devices as the parameter of pairing-related handlers (for example including BluetoothPairingListener.ondisplaypasskeyreq and BluetoothPairingListener.onenterpincodereq), when fired."
   },
   "BluetoothPairingHandle": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothPairingHandle",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothPairingHandle interface of the Web Bluetooth API contains the functionality required for completing a device pairing operation, including passkeys, and mechanisms to reply to user-entered pin codes and confirm passkeys."
   },
   "BluetoothPairingListener": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothPairingListener",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothPairingListener interface of the Web Bluetooth API defines event handlers triggered for different pairing operations."
   },
   "BluetoothStatusChangedEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothStatusChangedEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The BluetoothStatusChangedEvent API provides access to information regarding any change to the status of a Bluetooth device."
   },
   "BluetoothStatusChangedEvent/address": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothStatusChangedEvent/address",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The address property represents the address of the device for which the status has changed in the Bluetooth micro-network."
   },
   "BluetoothStatusChangedEvent/status": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BluetoothStatusChangedEvent/status",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The status property indicates if the connection is active (true) or not (false)."
   },
   "BroadcastChannel": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel",
@@ -1617,7 +1617,7 @@
   },
   "CSS2Properties/transitionProperty": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/CSS/transition-property",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The transition-property CSS property is used to specify the names of CSS properties to which a transition effect should be applied."
   },
   "CSS2Properties/transitionTimingFunction": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function",
@@ -1669,11 +1669,11 @@
   },
   "CSS2Properties/clipPath": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The clip-path CSS property prevents a portion of an element from getting displayed by defining a clipping region to be displayed i.e, only a specific region of the element is displayed. The clipping region is a path specified as a URL referencing an inline or external SVG, or shape method such as circle(). The clip-path property replaces the now deprecated clip property."
   },
   "CSS2Properties/colorInterpolation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The color-interpolation attribute specifies the color space for gradient interpolations, color animations, and alpha compositing.\n \n When a child element is blended into a background, the value of the color-interpolation attribute on the child determines the type of blending, not the value of the color-interpolation on the parent. For gradients which make use of the xlink:href attribute to reference another gradient, the gradient uses the color-interpolation attribute value from the gradient element which is directly referenced by the fill or stroke attribute. When animating colors, color interpolation is performed according to the value of the color-interpolation attribute on the element being animated."
   },
   "CSS2Properties/colorInterpolationFilters": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-filters",
@@ -1921,11 +1921,11 @@
   },
   "CallEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CallEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The CallEvent interface of the Web Telephony API represents events related to telephone calls."
   },
   "CallEvent/call": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CallEvent/call",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The call read-only property of the CallEvent interface returns a TelephonyCall object indicating the call from which the event originated."
   },
   "CameraCapabilities": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities",
@@ -1933,159 +1933,159 @@
   },
   "CameraCapabilities/previewSizes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/previewSizes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The previewSizes property is an Array of objects containing the height and width properties supported for the video preview stream."
   },
   "CameraCapabilities/pictureSizes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/pictureSizes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The pictureSizes property is an Array of objects containing the height and width properties supported for picture taking."
   },
   "CameraCapabilities/videoSizes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/videoSizes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The videoSizes property is an Array of objects containing the height and width properties supported for video recording."
   },
   "CameraCapabilities/fileFormats": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/fileFormats",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The fileFormats property is an Array identifying the file formats supported by the camera, such as jpeg, rgb565, etc."
   },
   "CameraCapabilities/whiteBalanceModes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/whiteBalanceModes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The whiteBalanceModes property is an Array of strings identifiers for each white balance mode supported by the camera such as auto, fluorecent, etc."
   },
   "CameraCapabilities/sceneModes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/sceneModes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The sceneModes property is an Array identifying each of the scene modes supported by the camera such as auto, night, beach, etc."
   },
   "CameraCapabilities/effects": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/effects",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The effects property value is an Array identifying the effects (such as normal, sepia, mono, etc.) that the camera supports."
   },
   "CameraCapabilities/flashModes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/flashModes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The flashModes property is an Array of strings identifying each of the flash modes supported by the camera. Possible values are auto, off, on or torch."
   },
   "CameraCapabilities/focusModes": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/focusModes",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The focusModes property is an Array of strings identifying each of the focus modes supported by the camera such as auto, fixed, macro, etc."
   },
   "CameraCapabilities/zoomRatios": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/zoomRatios",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The zoomRatios property is an Array of numbers representing all the supported zoom ratios. If the camera has no zoom capabilities, the value is null."
   },
   "CameraCapabilities/maxFocusAreas": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/maxFocusAreas",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The maxFocusAreas property is a number that defines the maximum number of focus areas supported by the camera."
   },
   "CameraCapabilities/maxMeteringAreas": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/maxMeteringAreas",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The maxMeteringAreas property is a number that defines the maximum number of metering areas supported by the camera."
   },
   "CameraCapabilities/minExposureCompensation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/minExposureCompensation",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The minExposureCompensation property is a number that defines the minimum supported exposure compensation value."
   },
   "CameraCapabilities/maxExposureCompensation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/maxExposureCompensation",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The maxExposureCompensation property is a number that defines the maximum supported exposure compensation value."
   },
   "CameraCapabilities/recorderProfiles": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraCapabilities/recorderProfiles",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The recorderProfiles property is an object with attributes for each of the supported recorder profiles, e.g., recorderProfiles.cif, recorderProfiles.qvga."
   },
   "CameraControl": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "When you use the CameraManager.getCamera() method to get a reference to a camera, you specify a callback function to be invoked on success. That function receives as a parameter a CameraControl object. You can use its methods and properties to manage and make use of the camera."
   },
   "CameraControl/capabilities": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/capabilities",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The capabilities property return a CameraCapabilities object, which describes the capabilities of the camera."
   },
   "CameraControl/effect": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/effect",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The effect property is a string defining the effect to be used by the camera. When set, its value must be one of the values available in CameraCapabilities.effects."
   },
   "CameraControl/whiteBalanceMode": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/whiteBalanceMode",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The whiteBalanceMode property value is a string that defines the white balance mode to use. When set, its new value must be chosen from the list of options specified by  CameraCapabilities.whiteBalanceModes."
   },
   "CameraControl/sceneMode": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/sceneMode",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The sceneMode property value is a string that defines the quality of exposure to use while taking pictures. When set, its new value must be chosen from the list of options specified by  CameraCapabilities.sceneModes."
   },
   "CameraControl/flashMode": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/flashMode",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The flashMode property value is a string that defines how the flash, if any, is to be used. When set, its new value must be chosen from the list of options specified by  CameraCapabilities.flashModes."
   },
   "CameraControl/focusMode": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/focusMode",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The focusMode property value is a string that defines which kind of focus mode the camera should use. When set, its new value must be chosen from the list of options specified by  CameraCapabilities.focusModes."
   },
   "CameraControl/zoom": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/zoom",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The zoom property value is a number that defines the zoom factor that is to be used when taking photographs. When set, its new value must be chosen from the list of options specified by  CameraCapabilities.zoomRatios. If the new value is not one of those possible values, the new value is rounded to the nearest supported value."
   },
   "CameraControl/focalLength": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/focalLength",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The focalLength property value is a read-only property that returns a number that expresses the camera's focal length in millimeters."
   },
   "CameraControl/focusDistanceNear": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/focusDistanceNear",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The focusDistanceNear property value is a distance in meters used with CameraControl.focusDistanceFar to define the image's depth of field."
   },
   "CameraControl/focusDistanceOptimum": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/focusDistanceOptimum",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The focusDistanceOptimum property value is the distance in meters where the subject appears sharpest."
   },
   "CameraControl/focusDistanceFar": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/focusDistanceFar",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The focusDistanceFar property value is a distance in meters used with CameraControl.focusDistanceNear to define the image's depth of field. The value for this property may be Infinity."
   },
   "CameraControl/exposureCompensation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/exposureCompensation",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The exposureCompensation property value is a number used to compensate the camera exposure."
   },
   "CameraControl/onshutter": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/onshutter",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The onShutter property is used to set an event handler for the camera's \"shutter\" event, to trigger a shutter sound and/or a visual shutter indicator."
   },
   "CameraControl/onrecorderstatechange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/onrecorderstatechange",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The onRecorderStateChange property is used to set an event handler to listen to the recorder state change. This can happen either because the recording process encountered an error, or because one of the recording limits set with CameraControl.startRecording() was reached."
   },
   "CameraControl/autoFocus": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/autoFocus",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "This method attempts to focus the camera. If the camera is able to attempt to focus, a success callback is issued, regardless of whether or not the focusing attempt succeeds. If unable to attempt to focus, an error callback is performed instead."
   },
   "CameraControl/takePicture": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/takePicture",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "Captures a still image from the camera and passes it as a Blob to a success callback handler, which can manipulate the image as you wish (for example, by manipulating its pixel data or storing it)."
   },
   "CameraControl/startRecording": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/startRecording",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "This method is used to start recording a video file on the device; the video is stored as a 3gp file."
   },
   "CameraControl/stopRecording": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/stopRecording",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "Stops recording video on the device; you should call this at some point after calling CameraControl.startRecording()."
   },
   "CameraControl/resumePreview": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/resumePreview",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "This method is used to resume the preview stream."
   },
   "CameraControl/release": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraControl/release",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "Releases the camera so that other applications can use it. You should call this whenever the camera is not actively being used by your application."
   },
   "CameraManager": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraManager",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The CameraManager interface provides access to any cameras available on the device being used."
   },
   "CameraManager/getCamera": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraManager/getCamera",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "This method is used to access to one of the cameras available on the device based on its identifier. You can get a list of the available cameras by calling the CameraManager.getListOfCameras() method."
   },
   "CameraManager/getListOfCameras": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CameraManager/getListOfCameras",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "This method is used to get an Array of identifiers of all the cameras available on the device."
   },
   "CanvasRenderingContext2D": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
@@ -2333,7 +2333,7 @@
   },
   "Client": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Client",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The Client interface of the ServiceWorker API represents the scope of a service worker client. A service worker client is either a document in a browser context or a SharedWorker, which is controlled by an active worker. A client object acts as a snapshot representation of its associated service worker client in the scope of a service worker."
   },
   "Client/id": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Client/id",
@@ -2353,11 +2353,11 @@
   },
   "WindowClient/visibilityState": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WindowClient/visibilityState",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The visibilityState read-only property of the WindowClient interface indicates the visibility of the current client. This value can be one of hidden, visible, prerender, or unloaded."
   },
   "WindowClient/focused": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WindowClient/focused",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The focused read-only property of the WindowClient interface is a Boolean that indicates whether the current client has focus."
   },
   "WindowClient/focus": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WindowClient/focus",
@@ -2401,39 +2401,39 @@
   },
   "ContactManager": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The ContactManager interface is used to access and manage the contact available on the device."
   },
   "ContactManager/find": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/find",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The find method is used to retrieve a limited list of contacts from the device's contact database. This method is best suited to access a small data set, where getAll() is better suited for a large data set."
   },
   "ContactManager/getAll": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/getAll",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The getAll method is used to access a sorted list of contact from the device's contact database. This method is best suited to access a large data set, where find() is better suited for a small data set."
   },
   "ContactManager/clear": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/clear",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The clear method is used to remove ALL the contacts from the device's contact database."
   },
   "ContactManager/save": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/save",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The save method is used to store a contact inside the device's contact database. If the contact is already in the database (based on its id), it is updated, otherwise it is created."
   },
   "ContactManager/remove": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/remove",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The remove method is used to delete a contact from the device's contact database."
   },
   "ContactManager/getRevision": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/getRevision",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The getRevision method is used to retrieve the revision number of the device's contact database."
   },
   "ContactManager/getCount": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/getCount",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The getCount method is used to retrieve the total number of contacts available inside the device's contact database."
   },
   "ContactManager/oncontactchange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ContactManager/oncontactchange",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "Specifies an event listener to receive contactchange events. These events occur when a contact is added, updated, or removed from the device's contact database."
   },
   "ConvolverNode": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ConvolverNode",
@@ -2557,67 +2557,67 @@
   },
   "DOMPointReadOnly": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMPointReadOnly",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The DOMPointReadOnly interface specifies the standard properties used by DOMPoint to define a 2D or 3D point in a coordinate system."
   },
   "DOMPointReadOnly/x": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMPointReadOnly/x",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The x read-only property of the DOMPointReadOnly interface represents the x coordinate of a point."
   },
   "DOMPointReadOnly/y": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMPointReadOnly/y",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The y read-only property of the DOMPointReadOnly interface represents the y coordinate of a point."
   },
   "DOMPointReadOnly/z": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMPointReadOnly/z",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The z read-only property of the DOMPointReadOnly interface represents the z coordinate of a point."
   },
   "DOMPointReadOnly/w": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMPointReadOnly/w",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The w read-only property of the DOMPointReadOnly interface represents the perspective of a point."
   },
   "DOMPoint": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMPoint",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "A DOMPoint represents a 2D or 3D point in a coordinate system."
   },
   "DOMRect": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRect",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "A DOMRect represents a rectangle."
   },
   "DOMRectReadOnly": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The DOMRectReadOnly interface specifies the standard properties used by DOMRect to define a rectangle."
   },
   "DOMRectReadOnly/x": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/x",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The x read-only property of the DOMRectReadOnly interface represents the x coordinate of the DOMRect's origin."
   },
   "DOMRectReadOnly/y": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/y",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The y read-only property of the DOMRectReadOnly interface represents the y coordinate of the DOMRect's origin."
   },
   "DOMRectReadOnly/width": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/width",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The width read-only property of the DOMRectReadOnly interface represents the width of the DOMRect."
   },
   "DOMRectReadOnly/height": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/height",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The height read-only property of the DOMRectReadOnly interface represents the height of the DOMRect."
   },
   "DOMRectReadOnly/top": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/top",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The top read-only property of the DOMRectReadOnly interface returns the top coordinate value of the DOMRect (has the same value as y, or y + height if height is negative.)"
   },
   "DOMRectReadOnly/right": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/right",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The right read-only property of the DOMRectReadOnly interface returns the right coordinate value of the DOMRect (has the same value as x + width, or x if width is negative.)"
   },
   "DOMRectReadOnly/bottom": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/bottom",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The bottom read-only property of the DOMRectReadOnly interface returns the bottom coordinate value of the DOMRect (has the same value as y + height, or y if height is negative.)"
   },
   "DOMRectReadOnly/left": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly/left",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The left read-only property of the DOMRectReadOnly interface returns the left coordinate value of the DOMRect (has the same value as x, or x + width if width is negative.)"
   },
   "DOMRequest": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DOMRequest",
@@ -2637,91 +2637,91 @@
   },
   "DataStore": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The DataStore interface of the Data Store API represents a retrieved set of data, and includes standard properties for accessing the store's name, owner, etc., methods for reading, modifying and syncing data, and the onchange event handler for reacting to changes to the data."
   },
   "DataStore/name": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/name",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The name read-only property of the DataStore interface returns the name of the current data store."
   },
   "DataStore/owner": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/owner",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The owner read-only property of the DataStore interface returns the name of the app that owns the current data store."
   },
   "DataStore/readOnly": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/readOnly",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The readOnly read-only property of the DataStore interface returns a boolean indicating whether the current data store is read-only."
   },
   "DataStore/get": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/get",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The get() method of the DataStore interface retrieves one or more objects from the current data store."
   },
   "DataStore/put": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/put",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The put() method of the DataStore interface updates an existing record in the data store."
   },
   "DataStore/add": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/add",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The add() method of the DataStore interface adds a new record to the data store; if the record you are attempting to add already exists, it will throw an exception."
   },
   "DataStore/remove": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/remove",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The remove() method of the DataStore interface deletes one or more objects from the current data store."
   },
   "DataStore/clear": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/clear",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The clear() method of the DataStore interface deletes all records from the data store, leaving it empty."
   },
   "DataStore/revisionId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/revisionId",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The revisionId read-only property of the DataStore interface returns the current data store's current revision ID. This ID can be tracked, allowing you to synchronize apps using the data store to this point in its history."
   },
   "DataStore/onchange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/onchange",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The onchange event handler of the DataStore interface fires when a change is made to the data store. Its main use is to synchronize different apps that are using the data store when a change is made. When fired, this event returns a DataStoreChangeEvent, which can be used to handle the change that was just made. Alternatively, when the event fires you could create a DataStoreCursor and iterate through all the records, if needed."
   },
   "DataStore/getLength": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/getLength",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The getLength() method of the DataStore interface returns the number of records stored in the current data store."
   },
   "DataStore/sync": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStore/sync",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The sync() method of the DataStore interface opens a cursor that allows you to step through any changes that have taken place in the data store going back to a particular revision ID, and run code in response to different types of change."
   },
   "DataStoreCursor": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreCursor",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The DataStoreCursor interface of the Data Store API represents a cursor that allows apps to iterate through a list of DataStoreTask objects representing the change history of the data store, for use when synchronizing the data."
   },
   "DataStoreCursor/store": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreCursor/store",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The store read-only property of the DataStoreCursor interface returns the name of the store that the cursor is iterating over."
   },
   "DataStoreCursor/next": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreCursor/next",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The next() method of the DataStoreCursor interface makes a request to retrieve information about the next operation that changes a record in the data store. Returns a promise of type DataStoreTask."
   },
   "DataStoreCursor/close": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreCursor/close",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The close() method of the DataStoreCursor interface makes a request to terminate the cursor."
   },
   "DataStoreChangeEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreChangeEvent",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The DataStoreChangeEvent interface of the Data Store API represents the event related to a record changed in the data store, i.e. this is returned once a change is made and the change event is fired (see DataStore.onchange for the handler)."
   },
   "DataStoreChangeEvent/revisionId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreChangeEvent/revisionId",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The revisionId read-only property of the DataStoreChangeEvent interface returns the ID of the current revision of the data store, i.e. the current change that has been made to a data record."
   },
   "DataStoreChangeEvent/id": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreChangeEvent/id",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The id read-only property of the DataStoreChangeEvent interface returns the identifier of the changed record in the data store. This must return null if the operation is cleared."
   },
   "DataStoreChangeEvent/operation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreChangeEvent/operation",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The operation read-only property of the DataStoreChangeEvent interface returns the type of operation that represents the current change that has been made to the data store."
   },
   "DataStoreChangeEvent/owner": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataStoreChangeEvent/owner",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The owner read-only property of the DataStoreChangeEvent interface returns the manifest URL of the application that made the change to the data store."
   },
   "DataTransfer": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DataTransfer",
@@ -2845,71 +2845,71 @@
   },
   "DeviceStorage": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The DeviceStorage interface is used to access files on a specific storage area available on the device. A storage area is, in essence, a file system repository even if it hides the reality of the underlying file system."
   },
   "DeviceStorage/onchange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/onchange",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The onchange property is used to specify an event handler to receive change events. Those events are triggered each time a file is created, modified, or deleted on the storage area."
   },
   "DeviceStorage/add": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/add",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The add method is used to add a file inside a given storage area."
   },
   "DeviceStorage/addNamed": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/addNamed",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The addNamed method is used to add a file inside a given storage area."
   },
   "DeviceStorage/get": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/get",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The get method is used to retrieve a read-only file from a given storage area."
   },
   "DeviceStorage/getEditable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/getEditable",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The getEditable method is used to retrieve a file, which is editable, from a given storage area."
   },
   "DeviceStorage/delete": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/delete",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The delete method is used to remove a file from a given storage area."
   },
   "DeviceStorage/enumerate": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/enumerate",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The enumerate method is used to iterate through the files of a given storage area."
   },
   "DeviceStorage/enumerateEditable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/enumerateEditable",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The enumerateEditable method is used to iterate through the files of a given storage area."
   },
   "DeviceStorage/freeSpace": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/freeSpace",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The freeSpace method is used to get the amount of free space usable by the storage area."
   },
   "DeviceStorage/usedSpace": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/usedSpace",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The usedSpace method is used to get the total of space used by the storage (the amount of space filled by files)."
   },
   "DeviceStorage/available": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/available",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The available() method is used to check whether the storage area is available; this is an asynchronous operation that returns a DOMRequest object that will receive a callback when the operation is complete."
   },
   "DeviceStorage/storageName": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/storageName",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The storageName property indicates the name of the storage area."
   },
   "DeviceStorage/default": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorage/default",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The default property indicates if the storage area is the one which will be used by default for storing new files (true) or not (false)."
   },
   "DeviceStorageChangeEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorageChangeEvent",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The DeviceStorageChangeEvent provides information about any change made to a file inside a given storage area. It extends the Event interface."
   },
   "DeviceStorageChangeEvent/path": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorageChangeEvent/path",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The path property provides the full path to the file affected by the change."
   },
   "DeviceStorageChangeEvent/reason": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/DeviceStorageChangeEvent/reason",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The reason property gives the nature of the change that occurred."
   },
   "Document": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Document",
@@ -3081,7 +3081,7 @@
   },
   "Document/registerElement": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Document/registerElement",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "The Document.registerElement() method registers a new custom element in the browser and returns a constructor for the new element."
   },
   "Document/styleSheets": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheets",
@@ -3317,7 +3317,7 @@
   },
   "Element/clientTop": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Element/clientTop",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The width of the top border of an element in pixels. It does not include the top margin or padding. clientTop is read-only."
   },
   "Element/clientLeft": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Element/clientLeft",
@@ -3349,7 +3349,7 @@
   },
   "Element/insertAdjacentHTML": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "insertAdjacentHTML() parses the specified text as HTML or XML and inserts the resulting nodes into the DOM tree at a specified position. It does not reparse the element it is being used on and thus it does not corrupt the existing elements inside the element. This, and avoiding the extra step of serialization make it much faster than direct innerHTML manipulation."
   },
   "Element/querySelector": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector",
@@ -3361,11 +3361,11 @@
   },
   "Element/createShadowRoot": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Element/createShadowRoot",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "Use Element.createShadowRoot to create an instance of shadow DOM. When shadow DOM is created, it is always attached to an existing element. After the shadow DOM is created, the element that it is attached to is called the shadow root."
   },
   "Element/shadowRoot": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Element/shadowRoot",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "The Element.shadowRoot read-only property represents the youngest shadow root that is hosted on the element."
   },
   "ErrorEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ErrorEvent",
@@ -3555,6 +3555,10 @@
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunload",
     "!doc": "The unload event is raised when the window is unloading its content and resources. The resources removal is processed after the unload event occurs."
   },
+  "EventListener": {
+    "!url": "http://developer.mozilla.org/en-US/docs/Web/API/EventListener",
+    "!doc": "This method is called whenever an event occurs of the type for which the EventListener interface was registered."
+  },
   "EventSource": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/EventSource",
     "!doc": "The EventSource interface is used to receive server-sent events. It connects to a server over HTTP and receives events in text/event-stream format without closing the connection."
@@ -3585,31 +3589,31 @@
   },
   "FMRadio": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The WebFM API provides access to the device FM radio. This interface lets you turn the FM radio on and off and tune it to different stations. It is accessible through the navigator.mozFMRadio property."
   },
   "FMRadio/enabled": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/enabled",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The enabled property value indicates whether the radio is playing (true) or not (false)"
   },
   "FMRadio/antennaAvailable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/antennaAvailable",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The antennaAvailable property value indicates if an antenna is plugged and available."
   },
   "FMRadio/frequency": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/frequency",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The frequency property value returns the current radio frequency."
   },
   "FMRadio/frequencyUpperBound": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/frequencyUpperBound",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The frequencyUpperBound property value indicates the maximum frequency up to which the seek method searches for radio stations."
   },
   "FMRadio/frequencyLowerBound": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/frequencyLowerBound",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The frequencyLowerBound property value indicates the minimum frequency down to which the seek method searches for radio stations."
   },
   "FMRadio/channelWidth": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/channelWidth",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The channelWidth property value indicates the channel width of the ranges of frequency, in MHz."
   },
   "FMRadio/onenabled": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/onenabled",
@@ -3629,27 +3633,27 @@
   },
   "FMRadio/disable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/disable",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The disable method is used to turn off the radio."
   },
   "FMRadio/enable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/enable",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The enable method is used to turns on the radio on the given frequency."
   },
   "FMRadio/setFrequency": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/setFrequency",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The setFrequency method is used to change the frequency listened to by the radio."
   },
   "FMRadio/seekUp": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/seekUp",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The seekUp method is used to tell the radio to seek up to the next radio channel. The search circles back to lower frequencies when the highest frequency has been reached."
   },
   "FMRadio/seekDown": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/seekDown",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The seekDown method is used to tell the radio to seek down to the next radio channel. The search circles back to upper frequencies when the lowest frequency has been reached."
   },
   "FMRadio/cancelSeek": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/FMRadio/cancelSeek",
-    "!doc": "This API is available on Firefox or Firefox OS for installed or higher privileged applications."
+    "!doc": "The cancelSeek method is used to tell the radio to stop seeking for frequencies."
   },
   "Body": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Body",
@@ -3669,7 +3673,7 @@
   },
   "Body/formData": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Body/formData",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "The formData() method of the Body mixin takes a Response stream and reads it to completion. It returns a promise that resolves with a FormData object."
   },
   "Body/json": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Body/json",
@@ -4013,7 +4017,7 @@
   },
   "HTMLElement/focus": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/focus",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The HTMLElement.focus() method sets focus on the specified element, if it can be focused."
   },
   "HTMLElement/blur": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/blur",
@@ -4789,7 +4793,7 @@
   },
   "IDBObjectStore/index": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IDBObjectStore/index",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "The index() method of the IDBObjectStore interface opens a named index in the current object store, after which it can be used to, for example, return a series of records sorted by that index using a cursor."
   },
   "IDBObjectStore/deleteIndex": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IDBObjectStore/deleteIndex",
@@ -4797,7 +4801,7 @@
   },
   "IDBObjectStore/count": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IDBObjectStore/count",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The count() method of the IDBObjectStore interface returns an IDBRequest object, and, in a separate thread, returns the total number of records that match the provided key or IDBKeyRange. If no arguments are provided, it returns the total number of records in the store."
   },
   "IDBObjectStore/openKeyCursor": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IDBObjectStore/openKeyCursor",
@@ -4901,23 +4905,23 @@
   },
   "IdentityManager/watch": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IdentityManager/watch",
-    "!doc": "Not native \n      This feature is not built into all browsers. To use it reliably, you'll need to include a JavaScript library in your page as a polyfill.  You can include the library from https://login.persona.org/include.js."
+    "!doc": "This function registers callbacks that respond to a Persona user logging in or out."
   },
   "IdentityManager/request": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IdentityManager/request",
-    "!doc": "Not native \n      This feature is not built into all browsers. To use it reliably, you'll need to include a JavaScript library in your page as a polyfill.  You can include the library from https://login.persona.org/include.js."
+    "!doc": "This function enables a web site to use Persona to authenticate its users. It must be invoked from within a click handler. For example, you should call it when a user clicks your \"log in with Persona\" button."
   },
   "IdentityManager/logout": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IdentityManager/logout",
-    "!doc": "Not native \n      This feature is not built into all browsers. To use it reliably, you'll need to include a JavaScript library in your page as a polyfill.  You can include the library from https://login.persona.org/include.js."
+    "!doc": "This function is used in Persona to cause the browser to reset the automatic / persistent login flag for a website. After being called, the user will need to explicitly log back into your site instead of being signed in automatically."
   },
   "IdentityManager/get": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IdentityManager/get",
-    "!doc": "Not native \n      This feature is not built into all browsers. To use it reliably, you'll need to include a JavaScript library in your page as a polyfill.  You can include the library from https://login.persona.org/include.js."
+    "!doc": "This function enables a web site to use BrowserID to authenticate its users. Call it in the click handler to your \"log in with Persona\" button with a callback function as a parameter."
   },
   "IdentityManager/getVerifiedEmail": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/IdentityManager/getVerifiedEmail",
-    "!doc": "Not native \n      This feature is not built into all browsers. To use it reliably, you'll need to include a JavaScript library in your page as a polyfill.  You can include the library from https://login.persona.org/include.js."
+    "!doc": "This function enables a web site to use BrowserID to authenticate its users. Call it in the click handler to your \"log in with BrowserID\" button with a callback function as a parameter."
   },
   "ImageData": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ImageData",
@@ -5045,11 +5049,11 @@
   },
   "MediaKeyMessageEvent/messageType": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeyMessageEvent/messageType",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeyMessageEvent.messageType read-only property indicates the type of message. It may be one of license-request, license-renewal, license-renewal, or individualization-request."
   },
   "MediaKeyMessageEvent/message": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeyMessageEvent/message",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeyMessageEvent.message read-only property returns an ArrayBuffer with a message from the content decryption module. Messages vary by key system."
   },
   "MediaKeySession": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession",
@@ -5057,39 +5061,39 @@
   },
   "MediaKeySession/sessionId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/sessionId",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.sessionId read-only property contains a unique string generated by the CDM for the current media object and its associated keys or licenses."
   },
   "MediaKeySession/expiration": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/expiration",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.expiration read-only property returns the time after which the keys in the current session can no longer be used to decrypt media data, or NaN if no such time exists. This value is determined by the CDM and measured in milliseconds since January 1, 1970, UTC. This value may change during a session lifetime, such as when an action triggers the start of a window."
   },
   "MediaKeySession/closed": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/closed",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.closed read-only property returns a Promise signaling when a MediaKeySession closes. This promise can only be fulfilled and is never rejected. Closing a session means that licenses and keys associated with it are no longer valid for decrypting media data."
   },
   "MediaKeySession/keyStatuses": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/keyStatuses",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.keyStatuses read-only property returns a reference to a read-only MediaKeyStatusMap of the current session's keys and their statuses."
   },
   "MediaKeySession/generateRequest": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/generateRequest",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.generateRequest() method returns a Promise after generating a media request based on initialization data."
   },
   "MediaKeySession/load": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/load",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.load() method returns a Promise that resolves to a boolean value after loading data for a specified session object."
   },
   "MediaKeySession/update": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/update",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.update() method returns a Promise after loading messages and licenses to the CDM."
   },
   "MediaKeySession/close": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/close",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.close() method returns a Promise after notifying the current media session is no longer needed and that the content decryption module should release any resources associated with this object and close it."
   },
   "MediaKeySession/remove": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySession/remove",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySession.remove() method returns a Promise after removing any session data associated with the current object."
   },
   "MediaKeyStatusMap": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeyStatusMap",
@@ -5101,11 +5105,11 @@
   },
   "MediaKeySystemAccess/keySystem": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySystemAccess/keySystem",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySystemAccess.keySystem read-only property returns a DOMString identifying the key system being used."
   },
   "MediaKeySystemAccess/createMediaKeys": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeySystemAccess/createMediaKeys",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeySystemAccess.createMediaKeys() method returns a Promise that resolves to a new MediaKeys object."
   },
   "MediaKeys": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeys",
@@ -5113,11 +5117,11 @@
   },
   "MediaKeys/createSession": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeys/createSession",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeys.createSession() method returns a new MediaKeySession object, which represents a context for message exchange with a content decryption module (CDM)."
   },
   "MediaKeys/setServerCertificate": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaKeys/setServerCertificate",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The MediaKeys.setServerCertificate() method a Promise to a server certificate to be used to encrypt messages to the license server."
   },
   "MediaQueryList": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList",
@@ -5397,7 +5401,7 @@
   },
   "Navigator/addIdleObserver": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/addIdleObserver",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "This method is used to add an observer that will check if the user is idle and will act accordingly. Once an observer is added, it can be removed with Navigator.removeIdleObserver."
   },
   "Navigator/removeIdleObserver": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/removeIdleObserver",
@@ -5409,11 +5413,11 @@
   },
   "Navigator/getDeviceStorage": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/getDeviceStorage",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The getDeviceStorage method is used to access some storage area available on the device."
   },
   "Navigator/getDeviceStorages": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/getDeviceStorages",
-    "!doc": "This API is available on Firefox OS for privileged or certified applications only."
+    "!doc": "The getDeviceStorages method is used to access individual storage areas available on the device. This method return an Array of DeviceStorage objects, one per physical storage area. Each storage area will have a name, retrievable using the .storageName attribute (see below)."
   },
   "Navigator/getGamepads": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/getGamepads",
@@ -5421,7 +5425,7 @@
   },
   "Navigator/getVRDevices": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/getVRDevices",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "The getVRDevices() method returns a promise that resolves to an array of objects representing any VR devices that are connected to the computer and compatible with the browser."
   },
   "Navigator/mediaDevices": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaDevices",
@@ -5437,7 +5441,7 @@
   },
   "Navigator/requestMediaKeySystemAccess": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Navigator/requestMediaKeySystemAccess",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The Navigator.requestMediaKeySystemAccess() method returns a Promise for a MediaKeySystemAccess object."
   },
   "NavigatorID": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/NavigatorID",
@@ -5643,6 +5647,14 @@
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Node/baseURIObject",
     "!doc": "The Node.baseURIObject property returns the nsIURI representing the node's (typically a document or an element) base URL. It's similar to Node.baseURI, except it returns an nsIURI instead of a string."
   },
+  "NodeFilter": {
+    "!url": "http://developer.mozilla.org/en-US/docs/Web/API/NodeFilter",
+    "!doc": "A NodeFilter interface represents an object used to filter the nodes in a NodeIterator or TreeWalker. They don't know anything about the DOM or how to traverse nodes; they just know how to evaluate a single node against the provided filter."
+  },
+  "NodeFilter/acceptNode": {
+    "!url": "http://developer.mozilla.org/en-US/docs/Web/API/NodeFilter/acceptNode",
+    "!doc": "The NodeFilter.acceptNode() method returns an unsigned short that will be used to tell if a given Node must be accepted or not by the NodeIterator or TreeWalker iteration algorithm. This method is expected to be written by the user of a NodeFilter. Possible return values are:"
+  },
   "NodeIterator": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/NodeIterator",
     "!doc": "The NodeIterator interface represents an iterator over the members of a list of the nodes in a subtree of the DOM. The nodes will be returned in document order."
@@ -5721,7 +5733,7 @@
   },
   "Notification/title": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Notification/title",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The title read-only property of the Notification interface indicates the title of the notification, as specified in the title parameter of the Notification() constructor."
   },
   "Notification/dir": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Notification/dir",
@@ -5745,7 +5757,7 @@
   },
   "Notification/data": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Notification/data",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The data read-only property of the Notification interface returns a structured clone of the notification's data, as specified in the data option of the Notification() constructor."
   },
   "Notification/close": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Notification/close",
@@ -5989,23 +6001,23 @@
   },
   "PermissionSettings": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PermissionSettings",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The PermissionSettings interface provides ways to let the user manage all the permissions requested by all apps on a Firefox OS device."
   },
   "PermissionSettings/get": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PermissionSettings/get",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The get method allows to retrieve the current status of a given permission for a given app."
   },
   "PermissionSettings/set": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PermissionSettings/set",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The set method allows to change a given permission for a given app."
   },
   "PermissionSettings/isExplicit": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PermissionSettings/isExplicit",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The isExplicit method allows to know if the setting is explicit (true) or implicit (false)."
   },
   "PermissionSettings/remove": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PermissionSettings/remove",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The remove method allows to simply reset a permission for an app which is running inside the browser app."
   },
   "Plugin": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Plugin",
@@ -6065,7 +6077,7 @@
   },
   "Promise": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Promise",
-    "!doc": "This is a new technology, part of the ECMAScript 2015 (ES6) standard .This technology's specification has been finalized, but  check the compatibility table for usage and implementation status in various browsers."
+    "!doc": "The Promise object is used for deferred and asynchronous computations. A Promise represents an operation that hasn't completed yet, but is expected to in the future."
   },
   "PushEvent": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PushEvent",
@@ -6213,7 +6225,7 @@
   },
   "Range/extractContents": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Range/extractContents",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The Range.extractContents() method moves contents of the Range from the document tree into a DocumentFragment."
   },
   "Range/cloneContents": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Range/cloneContents",
@@ -6749,7 +6761,7 @@
   },
   "ServiceWorkerClient": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerClient",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The Client interface of the ServiceWorker API represents the scope of a service worker client. A service worker client is either a document in a browser context or a SharedWorker, which is controlled by an active worker. A client object acts as a snapshot representation of its associated service worker client in the scope of a service worker."
   },
   "ServiceWorkerClient/postMessage": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerClient/postMessage",
@@ -6869,43 +6881,43 @@
   },
   "SettingsLock": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsLock",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Each call to SettingsManager.createLock() create a new SettingsLock object."
   },
   "SettingsLock/closed": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsLock/closed",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The closed property indicates whether or not the settings lock is closed."
   },
   "SettingsLock/set": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsLock/set",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "This method is changes the value of one or more given settings."
   },
   "SettingsLock/get": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsLock/get",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "This method fetches the value of a specified setting."
   },
   "SettingsLock/clear": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsLock/clear",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "This method clears the queue of SettingsLock objects."
   },
   "SettingsManager": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsManager",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Provides access to the device's settings."
   },
   "SettingsManager/createLock": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsManager/createLock",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "This method returns a SettingsLock object. This object is used to access and modify all the settings asynchronously and safely."
   },
   "SettingsManager/addObserver": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsManager/addObserver",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "Sets up a callback function to be notified when a specific setting's value changes."
   },
   "SettingsManager/removeObserver": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsManager/removeObserver",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "This method is used to remove a callback function that has been added with SettingsManager.addObserver()."
   },
   "SettingsManager/onsettingchange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SettingsManager/onsettingchange",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The onsettingchange property lets you set an event handler to be called for all setting changes."
   },
   "SharedWorker": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/SharedWorker",
@@ -7073,211 +7085,211 @@
   },
   "Telephony": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The Telephony interface of the Web Telephony API provides support for dialing, answering, and managing phone calls on a device with telephony support."
   },
   "Telephony/dial": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/dial",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The dial() method of the Telephony interface dials a phone number and returns a new TelephonyCall object representing the new call."
   },
   "Telephony/dialEmergency": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/dialEmergency",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The dialEmergency() method of the Telephony interface dials an emergency phone number and returns a new TelephonyCall object representing the new call."
   },
   "Telephony/sendTones": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/sendTones",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The sendTones() method of the Telephony Interface generates multiple DTMF tones, with a specified duration for each tone, and an optional delay before generation starts. The tones are sent to the currently active call."
   },
   "Telephony/startTone": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/startTone",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The startTone() method of the Telephony Interface begins generating the tone for the specified DTMF character. The tone is sent to the currently active call, and continues to sound until a corresponding call to Telephony.stopTone()."
   },
   "Telephony/stopTone": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/stopTone",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The startTone() method of the Telephony Interface stops transmitting the currently-playing DTMF tone started by a prior call to Telephony.startTone()."
   },
   "Telephony/muted": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/muted",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The muted property of the Telephony interface indicates whether or not the microphone is muted for the purposes of telephony."
   },
   "Telephony/speakerEnabled": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/speakerEnabled",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The speakerEnabled property of the Telephony interface indicates whether or not the speakerphone functionality of the phone is enabled."
   },
   "Telephony/active": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/active",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The active read-only property of the Telephony interface returns a TelephonyCall object indicating the call that is currently active. The active call is the one that is currently receiving input from the microphone, or tones generated by calls to the Telephony.startTone() method."
   },
   "Telephony/calls": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/calls",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The calls read-only property of the Telephony interface returns a list of TelephonyCall objects representing the currently connected telephone calls."
   },
   "Telephony/conferenceGroup": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/conferenceGroup",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The conferenceGroup read-only property of the Telephony interface returns a TelephonyCallGroup object, allowing programmatic control over a multi-person call/conference call."
   },
   "Telephony/ready": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/ready",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The ready read-only property of the Telephony interface provides an asynchronous notification that the object is initialized."
   },
   "Telephony/onincoming": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/onincoming",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The onincoming property of the Telephony interface specifies an event listener to receive incoming events; these indicate when a new call is arriving."
   },
   "Telephony/oncallschanged": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/oncallschanged",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The oncallschanged property of the Telephony interface specifies an event listener to receive callschanged events. These events occur when the list of ongoing calls, as indicated by Telephony.calls, changes."
   },
   "Telephony/onremoteheld": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/onremoteheld",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onremoteheld property of the Telephony interface specifies an event listener to receive remoteheld events. These events occur whenever a remote party (e.g. the person you called) puts the call on hold.."
   },
   "Telephony/onremoteresumed": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Telephony/onremoteresumed",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onremoteresumed property of the Telephony interface specifies an event listener to receive remoteresumed events. These events occur when when a remote party (e.g. the person you called) resumes a call previously put on hold."
   },
   "TelephonyCall": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The TelephonyCall interface of the Web Telephony API represents one telephone call, providing information about the call and offering mechanisms for controlling it and detecting changes to its status."
   },
   "TelephonyCall/serviceId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/serviceId",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The serviceId read-only property of the TelephonyCall interface indicates which telephony service a call comes from."
   },
   "TelephonyCall/id": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/id",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The id read-only property of the TelephonyCall interface indicates the caller id (usually the telephone number) associated with the current phone call."
   },
   "TelephonyCall/secondId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/secondId",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The secondId read-only property of the TelephonyCall interface indicates the second caller's id (usually their phone number) in the case of a CDMA network where you have a 2nd waiting call."
   },
   "TelephonyCall/state": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/state",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The state read-only property of the TelephonyCall interface returns the current state of the phone call."
   },
   "TelephonyCall/emergency": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/emergency",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The emergency read-only property of the TelephonyCall interface indicates whether the current telephone number is an emergency number."
   },
   "TelephonyCall/switchable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/switchable",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The switchable read-only property of the TelephonyCall interface indicates whether the current call can be switched between \"connected\" and \"held\" states."
   },
   "TelephonyCall/mergeable": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/mergeable",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The mergeable read-only property of the TelephonyCall interface indicates whether the current call can be added into a TelephonyCallGroup (multi-person call.)"
   },
   "TelephonyCall/error": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/error",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The error read-only property of the TelephonyCall interface indicates a returned error when a call does connect successfully."
   },
   "TelephonyCall/disconnectedReason": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/disconnectedReason",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The disconnectedReason read-only property of the TelephonyCall interface indicates the reason why the call was disconnected (either because there was an error somewhere, or the call ended or wasn't answered.)"
   },
   "TelephonyCall/group": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/group",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The group read-only property of the TelephonyCall interface indicates the TelephonyCallGroup (multi-person call) the call belongs to, if any."
   },
   "TelephonyCall/answer": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/answer",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The answer() method of the TelephonyCall interface answers an incoming call."
   },
   "TelephonyCall/hangUp": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/hangUp",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The hangUp() method of the TelephonyCall interface hangs up an ongoing call."
   },
   "TelephonyCall/hold": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/hold",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The hold() method of the TelephonyCall interface is used to put a call on hold."
   },
   "TelephonyCall/resume": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/resume",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The resume() method of the TelephonyCall interface is used to resume a call that was previously put on hold."
   },
   "TelephonyCall/onstatechange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/onstatechange",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The onstatechange event handler of the TelephonyCall interface is a reference to a function to be called to handle the Telephony API's statechange event."
   },
   "TelephonyCall/ondialing": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/ondialing",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The ondialing event handler of the TelephonyCall interface is a reference to a function to be called to handle the Telephony API's dialing event."
   },
   "TelephonyCall/onalerting": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/onalerting",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The onalerting event handler of the TelephonyCall interface is a reference to a function to be called to handle the Telephony API's alerting event."
   },
   "TelephonyCall/onconnected": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/onconnected",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The onconnected event handler of the TelephonyCall interface is a reference to a function to be called to handle the Telephony API's connected event."
   },
   "TelephonyCall/ondisconnected": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/ondisconnected",
-    "!doc": "This API is available on Firefox OS for internal applications only."
+    "!doc": "The ondisconnected event handler of the TelephonyCall interface is a reference to a function to be called to handle the Telephony API's disconnected event."
   },
   "TelephonyCall/onheld": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/onheld",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onheld event handler of the TelephonyCall interface is a reference to a function to be called when the current call has been held."
   },
   "TelephonyCall/onerror": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/onerror",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onerror event handler of the TelephonyCall interface is a reference to a function to be called when the call does not succeed due to error. This is being obsoleted as it is very similar to TelephonyCall.ondisconnected, but semantically more narrow and therefore not as useful."
   },
   "TelephonyCall/ongroupchange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCall/ongroupchange",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The ongroupchange event handler of the TelephonyCall interface is a reference to a function to call when the call's TelephonyCallGroup (and therefore TelephonyCall.group property) changes."
   },
   "TelephonyCallGroup": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The TelephonyCallGroup interface of the Web Telephony API represents a multi-person/conference call, providing functions to allow callers to be added and removed from the conference call, hanging up of the entire call, and more."
   },
   "TelephonyCallGroup/calls": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/calls",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The calls read-only property of the TelephonyCallGroup interface returns an array containing all the TelephonyCall objects representing the calls currently added to the call group."
   },
   "TelephonyCallGroup/add": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/add",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The add() method of the TelephonyCallGroup interface adds a specific TelephonyCall object to the call group."
   },
   "TelephonyCallGroup/remove": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/remove",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The remove() method of the TelephonyCallGroup interface removes a specific TelephonyCall object from the call group."
   },
   "TelephonyCallGroup/hangUp": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/hangUp",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The hangUp() method of the TelephonyCallGroup interface hangs up the entire conference call, i.e. every TelephonyCall object within it."
   },
   "TelephonyCallGroup/hold": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/hold",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The hold() method of the TelephonyCallGroup interface puts the entire conference call on hold, i.e. every TelephonyCall object within it."
   },
   "TelephonyCallGroup/resume": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/resume",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The resume() method of the TelephonyCallGroup interface resumes a previously held conference call."
   },
   "TelephonyCallGroup/state": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/state",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The state read-only property of the TelephonyCallGroup interface returns a DOMString indicating the state of the call group."
   },
   "TelephonyCallGroup/onstatechange": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/onstatechange",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onstatechange property of the Telephony interface specifies an event listener to receive statechange events. These events occur when the call group's state (i.e. the value of Telephony.state) changes."
   },
   "TelephonyCallGroup/onconnected": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/onconnected",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onconnected property of the Telephony interface specifies an event listener to receive connected events. These events occur when the phone is connected to the call group."
   },
   "TelephonyCallGroup/onheld": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/onheld",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onheld property of the Telephony interface specifies an event listener to receive held events. These events occur when the call group is successfully put on hold."
   },
   "TelephonyCallGroup/oncallschanged": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/oncallschanged",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The oncallschanged property of the Telephony interface specifies an event listener to receive callschanged events. These events occur when the list of ongoing calls, as indicated by TelephonyCallGroup.calls, changes."
   },
   "TelephonyCallGroup/onerror": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/TelephonyCallGroup/onerror",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The onerror property of the Telephony interface specifies an event listener to receive error events. These events occur when an error occurs with the call group."
   },
   "Text": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/Text",
@@ -7625,139 +7637,139 @@
   },
   "VRFieldOfViewReadOnly": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRFieldOfViewReadOnly",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The VRFieldOfViewReadOnly interface of the WebVR API contains the raw definition for the degree value properties required to define a field of view. Inherited by VRFieldOfView."
   },
   "VRFieldOfViewReadOnly/upDegrees": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRFieldOfViewReadOnly/upDegrees",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The upDegrees read-only property of the VRFieldOfViewReadOnly interface returns the number of degrees upwards that the field of view extends in."
   },
   "VRFieldOfViewReadOnly/rightDegrees": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRFieldOfViewReadOnly/rightDegrees",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The rightDegrees read-only property of the VRFieldOfViewReadOnly interface returns the number of degrees to the right that the field of view extends in."
   },
   "VRFieldOfViewReadOnly/downDegrees": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRFieldOfViewReadOnly/downDegrees",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The downDegrees read-only property of the VRFieldOfViewReadOnly interface returns the number of degrees downwards that the field of view extends in."
   },
   "VRFieldOfViewReadOnly/leftDegrees": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRFieldOfViewReadOnly/leftDegrees",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The leftDegrees read-only property of the VRFieldOfViewReadOnly interface returns the number of degrees to the left that the field of view extends in."
   },
   "VRFieldOfView": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRFieldOfView",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The VRFieldOfView interface of the WebVR API represents a field of view defined by 4 different degree values describing the view from a center point."
   },
   "VRPositionState": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The VRPositionState interface of the WebVR API represents the position state at a given timestamp (which includes orientation, position, velocity, and acceleration information.)"
   },
   "VRPositionState/timeStamp": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/timeStamp",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The timestamp read-only property of the VRPositionState interface returns the current time stamp of the system — a monotonically increasing value representing the time since the current app was started."
   },
   "VRPositionState/hasPosition": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/hasPosition",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The hasPosition read-only property of the VRPositionState interface returns a boolean indicating whether the VRPositionState.position property is valid (i.e. if the hardware is currently registering a valid position). If it is false, the position property will return null."
   },
   "VRPositionState/position": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/position",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The position read-only property of the VRPositionState interface returns the current position of the sensor relative to the head mounted display, as a 3D vector (DOMPoint value.)"
   },
   "VRPositionState/linearVelocity": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/linearVelocity",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The linearVelocity read-only property of the VRPositionState interface returns the current linear velocity of the sensor."
   },
   "VRPositionState/linearAcceleration": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/linearAcceleration",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The linearAcceleration read-only property of the VRPositionState interface returns the current linear acceleration of the sensor."
   },
   "VRPositionState/hasOrientation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/hasOrientation",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The hasPosition read-only property of the VRPositionState interface returns a boolean indicating whether the VRPositionState.orientation property is valid (i.e. if the hardware is currently registering a valid orientation). If it is false, the orientation property will return null."
   },
   "VRPositionState/orientation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/orientation",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The orientation read-only property of the VRPositionState interface returns the current orientation of the sensor relative to the head mounted display, as a quarternion value."
   },
   "VRPositionState/angularVelocity": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/angularVelocity",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The angularVelocity read-only property of the VRPositionState interface returns the current angular velocity of the sensor."
   },
   "VRPositionState/angularAcceleration": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRPositionState/angularAcceleration",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The angularAcceleration read-only property of the VRPositionState interface returns the current angular acceleration of the sensor."
   },
   "VREyeParameters": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The VREyeParameters interface of the WebVR API represents all the information required to correctly render a scene for a given eye, including field of view information."
   },
   "VREyeParameters/minimumFieldOfView": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters/minimumFieldOfView",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The minimumFieldOfView read-only property of the VREyeParameters interface describes the minimum supported field of view for the current eye."
   },
   "VREyeParameters/maximumFieldOfView": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters/maximumFieldOfView",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The maximumFieldOfView read-only property of the VREyeParameters interface describes the maximum supported field of view for the current eye."
   },
   "VREyeParameters/recommendedFieldOfView": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters/recommendedFieldOfView",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The recommendedFieldOfView read-only property of the VREyeParameters interface describes the recommended field of view for the current eye — ideally based on user calibration."
   },
   "VREyeParameters/eyeTranslation": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters/eyeTranslation",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The eyeTranslation read-only property of the VREyeParameters interface represents the offset from the center of the user's head to the eye, measured in meters."
   },
   "VREyeParameters/currentFieldOfView": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters/currentFieldOfView",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The currentFieldOfView read-only property of the VREyeParameters interface describes the current field of view for the eye, as specified using HMDVRDevice.setFieldOfView. It defaults to VREyeParameters.recommendedFieldOfView."
   },
   "VREyeParameters/renderRect": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VREyeParameters/renderRect",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The renderRect read-only property of the VREyeParameters interface specifies the viewport of a canvas into which visuals for the current eye should be rendered."
   },
   "VRDevice": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRDevice",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The VRDevice interface of the WebVR API represents a generic VR device connected to the user's computer."
   },
   "VRDevice/hardwareUnitId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRDevice/hardwareUnitId",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The hardwareUnitId read-only property of the VRDevice interface returns the distinct hardware ID for the overall hardware unit that this VRDevice is a part of. All devices that are part of the same physical piece of hardware will have the same hardwareUnitId."
   },
   "VRDevice/deviceId": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRDevice/deviceId",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The deviceId read-only property of the VRDevice interface returns the ID for this specific VRDevice. The ID shouldn’t change across browser restarts, allowing configuration data to be saved based on it."
   },
   "VRDevice/deviceName": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/VRDevice/deviceName",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The deviceName read-only property of the VRDevice interface returns a human-readable name to identify the VRDevice. This will generally be something like \"Oculus VR HMD (HMD)\" or \"Oculus VR HMD (Sensor)\"."
   },
   "HMDVRDevice": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/HMDVRDevice",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The HMDVRDevice interface of the WebVR API represents a head mounted display, providing access to information about each eye, and allowing us to modify the current field of view."
   },
   "HMDVRDevice/getEyeParameters": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/HMDVRDevice/getEyeParameters",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The getEyeParameters() method of the HMDVRDevice interface returns current parameters for the eye specified as its argument (\"left\" or \"right\") — stored in a VREyeParameters object."
   },
   "HMDVRDevice/setFieldOfView": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/HMDVRDevice/setFieldOfView",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The setFieldOfView() method of the HMDVRDevice interface can be used to set the field of view for one eye, or both eyes simultaneously."
   },
   "PositionSensorVRDevice": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PositionSensorVRDevice",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The PositionSensorVRDevice interface of the WebVR API represents VR hardware's position sensor. You can access information such as the current position and orientation of the sensor in relation to the head mounted display through the PositionSensorVRDevice.getState() method."
   },
   "PositionSensorVRDevice/getState": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PositionSensorVRDevice/getState",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The getState() method of the PositionSensorVRDevice interface returns the current state of the position sensor for the current frame (e.g. within the current window.requestAnimationFrame callback) or for the previous frame, contained with a VRPositionState object. This is the method you'd normally want to use, versus PositionSensorVRDevice.getImmediateState."
   },
   "PositionSensorVRDevice/getImmediateState": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PositionSensorVRDevice/getImmediateState",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The getImmediateState() method of the VRDevice interface returns the current instantaneous position sensor state. This is intended to only be used rarely, for certain special uses, for example sampling the immediate position of a hand orientation sensor — or at least it will be, in the future."
   },
   "PositionSensorVRDevice/resetSensor": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/PositionSensorVRDevice/resetSensor",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "The resetSensor() method of the VRDevice interface can be used to reset the sensor if desired, returning the position and orientation values to zero."
   },
   "ValidityState": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ValidityState",
@@ -7801,15 +7813,15 @@
   },
   "WebGLProgram": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLProgram",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "See WebGLShader for information on creating the vertexShader and fragmentShader in the above example."
   },
   "WebGLShader": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLShader",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "See WebGLProgram for information on creating attaching the shaders."
   },
   "WebGLRenderingContext": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext",
-    "!doc": "Draft \n    This page is not complete."
+    "!doc": "The WebGLRenderingContext interface provides the OpenGL ES 2.0 rendering context for the drawing surface of an HTML <canvas> element."
   },
   "WebGLRenderingContext/canvas": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/canvas",
@@ -7817,15 +7829,15 @@
   },
   "WebGLRenderingContext/attachShader": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/attachShader",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "© 2005-2015 Mozilla Developer Network and individual contributors Content is available under these licenses · About MDN · Terms · Privacy · Cookies · Contribute to the code"
   },
   "WebGLRenderingContext/createShader": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/createShader",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "See WebGLShader for usage and examples."
   },
   "WebGLRenderingContext/detachShader": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext/detachShader",
-    "!doc": "This article is in need of an editorial review."
+    "!doc": "© 2005-2015 Mozilla Developer Network and individual contributors Content is available under these licenses · About MDN · Terms · Privacy · Cookies · Contribute to the code"
   },
   "WebSocket": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WebSocket",
@@ -8237,7 +8249,7 @@
   },
   "ChromeWorker": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/ChromeWorker",
-    "!doc": "If you're developing privileged code, and would like to create a worker that can use js-ctypes to perform calls to native code, you can do so by using ChromeWorker instead of the standard Worker object. It works exactly like a standard Worker, except that it has access to js-ctypes via a global ctypes object available in the global scope of the worker. Examples of ChromeWorker's using js-ctypes are availabe on Github and are linked to from the See Also section below."
+    "!doc": "If you're developing privileged code, and would like to create a worker that can use js-ctypes to perform calls to native code, you can do so by using ChromeWorker instead of the standard Worker object. It works exactly like a standard Worker, except that it has access to js-ctypes via a global ctypes object available in the global scope of the worker. Examples of ChromeWorker's using js-ctypes are availabe on Github and are linked to from the See Also section below. To use a postMessage with callback version of ChromeWorker that features promises, see PromiseWorker."
   },
   "WorkerGlobalScope": {
     "!url": "http://developer.mozilla.org/en-US/docs/Web/API/WorkerGlobalScope",

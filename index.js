@@ -70,7 +70,7 @@ walker.on('end', function() {
         var doc = null;
         jsdom.env({
           url: url,
-          scripts: ["http://code.jquery.com/jquery.js"],
+          scripts: ["http://othree.net/jquery.js"],
           done: function (errors, window) {
             var $ = window.$;
             var nodes = $('p');
@@ -100,7 +100,9 @@ walker.on('end', function() {
             if (!doc) {
               console.log(i, key, 'nodoc');
             }
-            walk(i+1);
+            setTimeout(function () {
+              walk(i+1);
+            }, 1500);
           }
         });
         // request({
@@ -112,7 +114,9 @@ walker.on('end', function() {
         // });
       } else {
         console.log(i, key, 'notfound');
-        walk(i+1);
+        setTimeout(function () {
+          walk(i+1);
+        }, 1500);
       }
     });
   };
